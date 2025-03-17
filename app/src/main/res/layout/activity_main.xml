@@ -1,0 +1,33 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/etStreamKey"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="YouTube Stream Key"/>
+
+    <Button
+        android:id="@+id/btnFileSelect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Media File"/>
+
+    <Button
+        android:id="@+id/btnStart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Streaming"
+        android:backgroundTint="#6EBF8B"/>
+
+    <Button
+        android:id="@+id/btnStop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Stop Streaming"
+        android:backgroundTint="#D82148"/>
+</LinearLayout>
